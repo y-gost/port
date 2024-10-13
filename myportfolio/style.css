@@ -1,0 +1,596 @@
+body {
+  background-color: rgb(0, 0, 0);
+  text-transform: capitalize;
+}
+
+:root {
+  --width: 357px;
+}
+span {
+  color: #f90707e0;
+}
+.head {
+  align-items: baseline;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+  width: var(--width);
+  position: relative;
+}
+.menu_ph {
+  font-size: 1.6rem;
+  margin: 0%;
+  padding: 0%;
+  cursor: pointer;
+}
+
+.logo {
+  margin-top: 0%;
+  cursor: pointer;
+  margin-left: 0rem;
+}
+
+.ulposition {
+  display: none;
+  position: absolute;
+  right: 11rem;
+  top: 0rem;
+  width: 8.8rem;
+  height: 26.2rem;
+  line-height: 2rem;
+  background-color: #161616;
+}
+li {
+  list-style: none;
+}
+.listclose {
+  margin-left: 7rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+a:hover {
+  color: rgb(242, 11, 50);
+}
+
+button {
+  border-radius: 3rem;
+  background-color: rgb(242, 11, 50);
+  color: white;
+  font-size: 9px;
+  transition: transform 0.4s;
+}
+button:hover {
+  transform: scale(1.5);
+}
+
+header {
+  color: white;
+  width: var(--width);
+  height: 450px;
+
+  background-image: url(img_1703967129247.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block {
+  margin-left: 1rem;
+  margin-top: 5rem;
+  font-size: 15px;
+}
+
+.block h4 {
+  color: rgb(242, 208, 208);
+}
+.input form {
+  position: relative;
+}
+.input form :first-child {
+  border-radius: 30px;
+  font-size: 13px;
+  padding: 5px;
+  width: 10rem;
+}
+.input form :last-child {
+  background-color: rgb(242, 11, 50);
+  border: none;
+  font-size: 13px;
+  border-radius: 30px;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  top: 0.4rem;
+  left: 7rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: rem;
+  color: white;
+  width: var(--width);
+  background-color: rgb(12, 12, 12);
+}
+nav {
+  margin-top: 3rem;
+
+  display: flex;
+  color: white;
+  width: var(--width);
+  text-align: center;
+  justify-content: space-around;
+  background-color: #191919;
+}
+nav img {
+  width: 30rem;
+  height: 17rem;
+  object-fit: cover;
+}
+
+nav h1 {
+  text-align: center;
+  font-size: 27px;
+  text-transform: capitalize;
+}
+nav div h3 {
+  font-size: 15px;
+}
+nav div p {
+  line-height: 15px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.our {
+  margin-top: 1rem;
+  color: white;
+  text-align: center;
+  width: var(--width);
+  font-size: 40px;
+}
+article {
+  width: var(--width);
+}
+article .art {
+  justify-content: space-between;
+}
+article .art div {
+  color: white;
+  height: 100%;
+  background: #191919;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.skill {
+  color: white;
+  width: 357px;
+}
+.skillimg {
+  display: none;
+}
+.skillimg_ph {
+  display: block;
+  display: flex;
+  gap: 0.5rem;
+}
+.skillimg_ph img {
+  object-fit: cover;
+  width: 5.2rem;
+  height: 8rem;
+  border-radius: 0rem 0rem 0rem 1rem;
+}
+
+.skill h1 {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+.skilltext {
+  margin-left: 2rem;
+  width: 25rem;
+}
+.skilltext p {
+  font-size: 12px;
+  color: white;
+}
+.under_rotet {
+  display: none;
+}
+.under_rotet_two {
+  display: block;
+}
+.skilltext :nth-child(3) {
+  width: 9rem;
+}
+.skill_more {
+  display: flex;
+  gap: 0.2rem;
+}
+.skill_more button {
+  border-radius: 1rem 0rem 0rem 0rem;
+  border-block-start-color: red;
+  background-color: #191919;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 26rem;
+  height: 4rem;
+}
+
+figure {
+  margin: 5rem 0rem 2rem 0rem;
+  text-align: center;
+  width: var(--width);
+}
+figure h1 {
+  color: white;
+  font-size: 40px;
+}
+figure h3 {
+  text-transform: capitalize;
+  color: white;
+  font-size: 20px;
+}
+
+.front {
+  color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-left: 0rem;
+  width: 357px;
+}
+.front_h1 {
+  margin-left: 2rem;
+}
+.front button {
+  width: 13rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  background-color: #191919;
+
+  border-radius: 1rem;
+}
+.front small {
+  display: block;
+  font-size: 10px;
+}
+figcaption {
+  background-color: black;
+  margin-left: 2rem;
+  width: var(--width);
+}
+figcaption h1 {
+  color: white;
+  text-transform: capitalize;
+  margin-top: 5rem;
+}
+figcaption p {
+  font: 1px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.one {
+  margin-left: 0rem;
+  justify-content: start;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+figcaption div input {
+  margin-top: 0.3rem;
+  padding: 0.7rem;
+  background-color: #191919;
+  width: 17rem;
+  border-top: #191919;
+  border-color: rgb(220, 126, 142);
+}
+
+.one button {
+  width: 15rem;
+  font-size: 1rem;
+  background-color: green;
+}
+footer {
+  color: rgb(228, 224, 224);
+  text-align: center;
+
+  width: var(--width);
+}
+
+.alink {
+  display: flex;
+  justify-content: center;
+}
+
+footer .alink a {
+  padding: 0.5rem;
+  margin: 0.6rem;
+  border: 1px solid;
+  border-radius: 100%;
+}
+@media screen and (min-width: 1250px) {
+  .head {
+    margin-left: 2rem;
+    gap: 0.2rem;
+    display: flex;
+
+    flex-direction: row;
+    align-items: baseline;
+    position: relative;
+  }
+  .menu_ph {
+    font-size: 4rem;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+  }
+
+  .logo {
+    letter-spacing: 1px;
+    font-size: 35px;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  button {
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3rem;
+
+    padding: 10px 25px;
+  }
+
+  header {
+    color: white;
+
+    background-image: url(.jpg);
+
+    object-fit: cover;
+    height: 35rem;
+    width: 63rem;
+  }
+  .block {
+    margin-left: 35rem;
+    margin-top: 7rem;
+  }
+  .block h1 {
+    font-size: 75px;
+    margin: 0%;
+    padding: 0%;
+  }
+  .block h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .block h4 {
+    color: rgb(242, 208, 208);
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .block p {
+    font-weight: bold;
+  }
+  .input form {
+    margin-left: 35rem;
+    width: 380px;
+
+    max-width: 100%;
+  }
+  .input form :first-child {
+    padding: 14px 130px 14px 15px;
+    color: white;
+    border-radius: 30px;
+  }
+  .input form :last-child {
+    padding: 10px 30px;
+    border-radius: 30px;
+    top: 0.4rem;
+    color: white;
+    left: 12.6rem;
+  }
+  section {
+    padding: 1.5rem;
+    font-size: 2rem;
+    width: 95%;
+  }
+  nav {
+    margin: 8rem auto;
+    width: 1130px;
+  }
+  nav img {
+    width: 470px;
+    height: 740px;
+    object-fit: cover;
+  }
+  nav div {
+    width: 550px;
+  }
+  nav div h1 {
+    font-size: 75px;
+    text-transform: capitalize;
+  }
+  nav div h3 {
+    font-size: 22px;
+  }
+  nav div p,
+  footer p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .our {
+    display: inline;
+    margin-left: 35rem;
+    font-size: 75px;
+  }
+  article {
+    width: 100%;
+  }
+  article .art {
+    justify-content: center;
+    display: flex;
+  }
+  article .art div {
+    padding: 3rem;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  article .art div h4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  article .art div p {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+
+  .skill {
+    margin-left: 15rem;
+    color: white;
+    width: 65rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9rem;
+  }
+  .skillimg_ph {
+    display: none;
+  }
+  .skillimg {
+    display: block;
+    flex: none;
+    position: relative;
+    margin-top: 5rem;
+    margin-left: 24px;
+  }
+  .skillimg img {
+    display: block;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 13px;
+    object-fit: cover;
+  }
+  .viwu {
+    position: absolute;
+    left: 13rem;
+  }
+  .skill h1 {
+    margin-left: 0rem;
+
+    margin-top: 6rem;
+    font-size: 2.5rem;
+  }
+  .skilltext {
+    margin-left: 0rem;
+
+    width: 25rem;
+  }
+  .skilltext p {
+    color: white;
+  }
+  .under_rotet {
+    display: block;
+  }
+  .under_rotet_two {
+    display: none;
+  }
+  .skilltext :nth-child(3) {
+    width: 10rem;
+  }
+  .skill_more {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill_more button {
+    color: #ffffff;
+    width: 15rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: #191919;
+    border-radius: 1rem;
+  }
+  .skill_more button:hover {
+    background-color: red;
+  }
+
+  figure {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 15rem 0rem 1rem 1rem;
+  }
+  figure h1 {
+    font-size: 3.5rem;
+  }
+  figure h3 {
+    font-size: 2rem;
+  }
+  .front {
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 94%;
+  }
+  .front_h1 {
+    margin-left: 40rem;
+  }
+  .front p {
+    width: 20rem;
+    margin-left: 37rem;
+  }
+  .front button {
+    width: 15rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-left: 6rem;
+    background-color: #191919;
+  }
+
+  .front small {
+    margin-left: 0rem;
+    width: 17rem;
+    font-size: 1rem;
+  }
+  figcaption {
+    width: 100%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+
+  figcaption div input {
+    margin-top: 0.6rem;
+    width: 50rem;
+  }
+  .fig_div p {
+    margin-left: 0rem;
+  }
+
+  .one button {
+    width: 15rem;
+    font-size: 1rem;
+    background-color: green;
+  }
+  footer {
+    margin-top: 9rem;
+    width: 99%;
+  }
+}
